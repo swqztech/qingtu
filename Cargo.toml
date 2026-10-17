@@ -1,0 +1,12 @@
+[package]
+name = "qingtu"
+version = "0.1.0"
+edition = "2021"
+description = "轻图 — 本地图片压缩 / 缩放 / 拼接（Rust + egui）"
+
+[dependencies]
+eframe = { version = "0.30", default-features = false, features = ["default_fonts", "glow"] }
+egui = "0.30"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp", "gif", "bmp"] }
+rfd = "0.15"
+webp = "0.3"
